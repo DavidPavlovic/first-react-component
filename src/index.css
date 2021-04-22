@@ -95,6 +95,7 @@ img {
   text-shadow: -1px -1px 0 rgba(0,105,0,1), 1px -1px 0 rgba(0,105,0,1), -1px 1px 0 rgba(0,105,0,1), 1px 1px 0 rgba(0,105,0,1);
   font-size: 20px;
   letter-spacing: 3px;
+  font-family: turtles-font;
 }
 
 .card__item:hover {
