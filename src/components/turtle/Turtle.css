@@ -1,0 +1,15 @@
+.turtle {
+    display: flex;
+    justify-content: center;
+}
+
+.turtle__wrapper {
+    padding: 10px;
+    width: 100%;
+}
+  
+@media screen and (max-width: 992px) {
+    .turtle {
+        flex-wrap: wrap;
+    }
+}
