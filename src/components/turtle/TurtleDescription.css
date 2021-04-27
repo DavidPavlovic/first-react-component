@@ -1,3 +1,22 @@
 .turtle__description {
     margin: 50px 10px 0 10px;
+    padding: 20px;
+    font-family: turtles-font;
+    color: #fff;
+    text-shadow: -1px -1px 0 rgb(0 0 0), 1px -1px 0 rgb(0 0 0), -1px 1px 0 rgb(0 0 0), 1px 1px 0 rgb(0 0 0);
+    letter-spacing: 2px;
+}
+
+.turtle__description--hidden {
+    display: none;
+}
+
+.turtle__description--active {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .turtle__description {
+        display: none;
+    }
 }
